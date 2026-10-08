@@ -5,44 +5,69 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Artist RXD | Official Portfolio</title>
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; font-family: sans-serif; }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
     body { background-color: #0f0f11; color: #ffffff; text-align: center; }
-    header { padding: 60px 20px; background: radial-gradient(circle, #2a1b40, #0f0f11); }
-    h1 { font-size: 2.8rem; color: #bb86fc; margin-bottom: 10px; }
-    p.subtitle { font-size: 1.1rem; color: #a0a0a0; margin-bottom: 20px; }
-    .social-links a { display: inline-block; margin: 5px 10px; padding: 8px 18px; color: #03dac6; border: 1px solid #03dac6; border-radius: 20px; text-decoration: none; }
-    .portfolio-section { padding: 40px 20px; max-width: 800px; margin: 0 auto; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin-top: 20px; }
-    .card { background: #1e1e24; border-radius: 10px; padding: 20px; border: 1px solid #2d2d35; }
-    .card h3 { color: #bb86fc; margin-bottom: 8px; }
-    .card p { color: #b0b0b0; font-size: 0.9rem; }
-    footer { padding: 20px; color: #666; border-top: 1px solid #222; font-size: 0.85rem; }
+    header { padding: 50px 20px; background: radial-gradient(circle, #2a1b40, #0f0f11); }
+    h1 { font-size: 2.5rem; color: #bb86fc; margin-bottom: 8px; letter-spacing: 1px; }
+    p.subtitle { font-size: 1rem; color: #a0a0a0; margin-bottom: 25px; }
+    .social-links a { display: inline-block; margin: 6px; padding: 10px 20px; color: #03dac6; border: 1.5px solid #03dac6; border-radius: 25px; text-decoration: none; font-size: 0.95rem; font-weight: 600; transition: 0.3s; }
+    .social-links a:hover { background: #03dac6; color: #000; }
+    .portfolio-section { padding: 40px 15px; max-width: 900px; margin: 0 auto; }
+    .section-title { font-size: 1.8rem; color: #bb86fc; margin-bottom: 25px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+    .card { background: #1e1e24; border-radius: 12px; padding: 15px; border: 1px solid #2d2d35; text-align: center; }
+    .card img { width: 100%; height: 230px; object-fit: cover; border-radius: 8px; margin-bottom: 12px; }
+    .card h3 { color: #ffffff; font-size: 1.1rem; margin-bottom: 6px; }
+    .card p { color: #b0b0b0; font-size: 0.85rem; }
+    footer { padding: 25px; color: #666; border-top: 1px solid #222; font-size: 0.85rem; margin-top: 40px; }
   </style>
 </head>
 <body>
+
   <header>
     <h1>ARTIST RXD</h1>
-    <p class="subtitle">Digital Creator | Artist | Musician</p>
+    <p class="subtitle">Digital Creator | Sketch Artist</p>
+
+    <!-- Social Media Links -->
     <div class="social-links">
-      <a href="https://instagram.com" target="_blank">Instagram</a>
+      <a href="https://www.instagram.com/artist_rxd?stkn=MTVxbHR6Y2kzc3o1eA==" target="_blank">Instagram</a>
+      <a href="https://www.facebook.com/share/1FV2EAjNWd/" target="_blank">Facebook</a>
       <a href="https://youtube.com" target="_blank">YouTube</a>
     </div>
   </header>
+
   <section class="portfolio-section">
-    <h2>My Creative Work</h2>
+    <h2 class="section-title">My Sketches & Artworks</h2>
+    
     <div class="grid">
+
+      <!-- Sketch 1 -->
       <div class="card">
-        <h3>🎨 Digital Art</h3>
-        <p>Custom illustrations & designs.</p>
+        <img src="https://picsum.photos/400/400?random=1" alt="Sketch 1">
+        <h3>Pencil Sketch #1</h3>
+        <p>Hand-drawn artwork made with graphite pencils.</p>
       </div>
+
+      <!-- Sketch 2 -->
       <div class="card">
-        <h3>🎵 Music</h3>
-        <p>Original tracks & beats.</p>
+        <img src="https://picsum.photos/400/400?random=2" alt="Sketch 2">
+        <h3>Digital Art</h3>
+        <p>Custom digital art & portrait illustration.</p>
       </div>
+
+      <!-- Sketch 3 -->
+      <div class="card">
+        <img src="https://picsum.photos/400/400?random=3" alt="Sketch 3">
+        <h3>Creative Artwork</h3>
+        <p>Concept design and creative artwork.</p>
+      </div>
+
     </div>
   </section>
+
   <footer>
     <p>&copy; 2026 Artist RXD. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
